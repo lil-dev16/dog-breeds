@@ -23,13 +23,27 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
-    /* margin: auto; */
+    margin: auto;
+    width: 55%;
+    border-radius: 20px;
     top: 0;
      bottom: 0;
      left: 0;
      right: 0;
+     transition: all .9s ease-out;
+     border: 30px solid red;
+     text-align: center;
 }
 .header{
     padding: 2rem;
     text-align: center;
+}
+.selec{
+    padding: .5rem;
+    font-size: 20px;
+}
+@media screen and (max-width: 700px){
+    .slider{
+        width: 90%;
+    }
 }
