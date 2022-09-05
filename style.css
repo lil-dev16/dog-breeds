@@ -31,7 +31,7 @@ body{
      left: 0;
      right: 0;
      transition: all .9s ease-out;
-     border: 30px solid red;
+     border: 30px solid grey;
      text-align: center;
 }
 .header{
